@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cousine';
+}
+
+.active {
+  font-weight: bold;
+  color: #ff6600; /* or whatever highlight color fits your theme */
+}
+
+a {
+    text-decoration: none; /* remove underline */
+    color: inherit; /* inherit the li color */
+}
+/* Navigation */
+.primary-nav{
+    background-color: var(--backgroundv2-color);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: var(--textv2-color);
+    height: 45px;
+}
+.primary-nav li{
+    margin: 0.8%;
+}
+
+.secondary-nav{
+    background-color: var(--backgroundv1-color);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin: 0 8%;
+}
+.secondary-nav .navigation {
+    display: flex;
+    align-items: center;
+    margin: 3%;
+}
+.secondary-nav .navigation li{
+    padding: 10%;
+    color: var(--textv1-color);
+    font-size: 1.3rem;
+}
+.secondary-nav .search-bar{
+    background-color: var(--backgroundv2-color);
+    display: flex;
+    align-items: center;
+}
+.secondary-nav .search-bar li a{
+    color: var(--textv2-color);
+    display: flex;
+    align-items: center;
+    height: 10px;
+    width: 230px;
+}
+
+.fa-magnifying-glass{
+    padding-left: 80px;
+    font-size: 1.5rem;
+}
+
+.secondary-nav .nav-icon{
+    display: flex;
+    align-items: center;
+    margin: 5%;
+}
+.secondary-nav .nav-icon li{
+    font-size: 1.6rem;
+    margin-left: 80% ;
+
+}
+/* End Navigation */
+
+
+/* End Container */
+
+/* Footer */
+.footer .primary-footer{
+    display: flex;
+}
+.footer .primary-footer .ftr-col{
+    margin: 3% 8%;
+    list-style: none;
+    line-height: 30px;
+
+}
+.footer .primary-footer .ftr-col h4{
+    font-size: 1.3rem;
+}
+
+.footer .primary-footer .ftr-col li{
+    opacity: 0.7;
+    font-size: 1rem;
+}
+.footer .primary-footer .ftr-col li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.footer .secondary-footer{
+    height: 45px;
+    align-items: center;
+    background-color: var(--backgroundv2-color);
+    padding: 0 8%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--textv2-color);
+}
+.footer .secondary-footer .ftr-li-a{
+    display: flex;
+}
+.footer .secondary-footer .ftr-li-a li{
+    margin-left: 60px;
+}
+.footer .secondary-footer li{
+    list-style: none;
+}
+
+/* End Footer*/
+
+

@@ -1,0 +1,163 @@
+.container{
+    margin: 0 8%;
+}
+
+.banner-con{
+    margin: 3% 0;
+    width: 400px;
+    height: 80px;
+}
+.banner-con img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.my-table {
+    width: 100%;
+    border-spacing: 0 24px; /* this gives space *between* rows */
+  }
+.my-table tbody tr {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    overflow: hidden;
+ }
+  
+.my-table th{
+    text-align: left;
+    
+  }
+  .my-table td{
+  
+    text-align: center;
+  }
+  .my-table thead {
+    background: var(--backgroundv2-color);
+    color: var(--textv2-color);
+    font-weight: bold;
+  }
+  .my-table thead .item2{
+    width: 200px;
+    text-align: center;
+  }
+
+  .my-table tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  .item1{
+    padding-left: 12px;
+    width: 500px;
+    height: 70px;
+  }
+  .pro-con{
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .pro-con h3,h4{
+    text-align: left;
+  }
+
+  .pro-con h3,h4,input{
+    margin: 0 3%;
+  }
+  .custom-checkbox {
+    width: 20px;
+    accent-color: #4CAF50;
+    cursor: pointer;
+  }
+  .pro-con h3, h4{
+    margin: 5%;
+    
+  }
+  .pro-con h4{
+    opacity: 0.8;
+  }
+  .td-img-con{
+    width: 200px;
+    height: 180px;
+  }
+  .pro-con input {
+    font-size: 100px;
+  }
+  .td-img-con img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.btn-del{
+    padding: 15px 20px;
+    font-size: 1.3rem;
+    border: none;
+    background-color: var(--debug-color);
+    color: var(--textv2-color);
+    border-radius: 5px;
+}
+.qnty-con{
+  display: flex;
+  justify-content: center;
+
+}
+.qnty-con .counter{
+  font-size: 1.8rem;
+  border-width: 1.5px 0px 1.5px 0px;
+}
+
+.qnty-con .minus,.plus,.counter{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border: 1.5px solid;
+}
+
+.cart-CO{
+
+  width: 100%;
+  height: 90px;
+  background-color: var(--backgroundv1-color);
+  color: var(--textv1-color);
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+.CO-con{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 700px;
+
+}
+.CO-con h4{
+  font-size: 1.2rem;
+  margin: 0;
+}
+.CO-con h2{
+  font-size: 1.8rem;
+}
+.CB-SL{
+  margin-right: 35%;
+  display: flex;
+  width: 600px;
+}
+.CB-SL h4{
+  font-size: 1.2rem;
+  margin: 0;
+}
+.CO-btn{
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: var(--backgroundv2-color);
+  color: var(--textv2-color);
+  border-radius: 5px;
+  margin-right: 10%;
+}
+
+button{
+  cursor: pointer;
+}
+

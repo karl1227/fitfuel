@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+   
+    --backgroundv1-color: #FFFFFF;
+    --backgroundv2-color: #000000;
+
+    --textv1-color: #000000;
+    --textv2-color: #FFFFFF;
+
+    --debug-color: #DC143C;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');

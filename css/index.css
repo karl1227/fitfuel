@@ -1,0 +1,215 @@
+.slider-img {
+    position: relative; 
+    width: 100%;
+    height: 800px; 
+    overflow: hidden;
+}
+  
+.slider-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 400%); 
+    
+    font-size: 2rem;
+    padding: 0.8% 1.8%;
+    width: auto;
+    color: var(--textv2-color);
+    border: none;
+    background-color: var(--debug-color);
+    cursor: pointer;
+    letter-spacing: 0.3rem;
+}
+.slider-btn:hover{
+    transform: translate(-50%, 395%); 
+    opacity: 0.8;
+    transform: 0;
+    transition: .3s ease-in;
+}
+
+.container{
+    height: auto;
+    margin: 0 8%;
+}
+
+.container .category{
+    display: flex;
+    justify-content: space-between;
+
+}
+.container .category .pro-cat{
+    margin: 7% 0;
+    width: 225px;
+    height: 225px;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.container .category .pro-cat img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .new-arrivals,.best-seller{
+    margin-top: 6%;
+}
+.container .new-arrivals .na-products,.bs-products{
+    display: flex;
+}
+.na-products,.bs-products{
+    gap: 45px;
+}
+
+.new-arrivals .na-info{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.new-arrivals .na-info-icon a i{
+    font-size: 1.5rem;
+    margin-left: 50px;
+}
+.container .new-arrivals h2{
+    margin: 4% 0;
+}
+.container .new-arrivals .na-products{
+    width: 450px;
+    height: 600px;
+}
+.container .new-arrivals .na-products .na-pro-img{
+    width: 450px;
+    height: 450px;
+}
+.container .new-arrivals .na-products .na-pro-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.na-products .na-pro-info{
+    margin: 2% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.na-products .na-pro-info .na-pro-info-left h3{
+    font-size: 1.2rem;
+}
+.na-products .na-pro-info .na-pro-info-left .price{
+    font-size: 1.5rem;
+}
+.na-pro-info-right a{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: var(--textv2-color);
+    background-color: var(--backgroundv2-color);
+}
+
+
+/*---- Best Seller----- */
+
+.best-seller .bs-info{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.best-seller .bs-info-icon a i{
+    font-size: 1.5rem;
+    margin-left: 50px;
+}
+.container .best-seller h2{
+    margin: 4% 0;
+}
+.container .best-seller .bs-products{
+    width: 450px;
+    height: 600px;
+}
+
+.container .best-seller .bs-products .bs-pro-img{
+    width: 450px;
+    height: 450px;
+}
+.container .best-seller .bs-products .bs-pro-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bs-products .bs-pro-info{
+    margin: 2% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.bs-products .bs-pro-info .bs-pro-info-left h3{
+    font-size: 1.2rem;
+}
+.bs-products .bs-pro-info .bs-pro-info-left .price{
+    font-size: 1.5rem;
+}
+.bs-pro-info-right a{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: var(--textv2-color);
+    background-color: var(--backgroundv2-color);
+}
+
+
+/* JS */
+.custom-alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px); /* blur the background */
+    background: rgba(0, 0, 0, 0.4); /* semi-transparent overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    display: none;
+  }
+  
+  .alert-box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .alert-box p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+  }
+  
+  .alert-box button {
+    padding: 8px 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .alert-box button:hover {
+    background: #0056b3;
+  }
+
+
+
